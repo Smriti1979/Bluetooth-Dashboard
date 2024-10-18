@@ -1,0 +1,47 @@
+/* src/BluetoothButton.css */
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f4f8; /* Light background color */
+    font-family: Arial, sans-serif;
+}
+
+button {
+    background-color: #9131d5; /* Bootstrap primary color */
+    color: white;
+    border: none;
+    border-radius: 30px;
+    padding: 15px 25px;
+    margin: 10px 0;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #460867; /* Darker shade for hover effect */
+}
+
+.device-info {
+    margin-top: 20px;
+    padding: 20px 60px;
+    border: 1px solid #460867;
+    border-radius: 5px;
+    background-color: white; /* White background for device info */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    text-align: center; /* Center text */
+}
+
+.device-info p {
+    margin: 5px 0;
+    color: #333; /* Darker text color */
+}
+
+.container img {
+    width: 400px;
+    height: 400px;
+    margin-bottom: 20px;
+}

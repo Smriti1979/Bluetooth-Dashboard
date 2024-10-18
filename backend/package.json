@@ -1,0 +1,19 @@
+{
+  "name": "bluetooth-dashboard",
+  "version": "1.0.0",
+  "description": "A simple Bluetooth dashboard application",
+  "type": "module",
+  "scripts": {
+    "start": "node backend/server.js",
+    "dev": "nodemon backend/server.js"
+  },
+  "keywords": [],
+  "author": "Your Name",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
